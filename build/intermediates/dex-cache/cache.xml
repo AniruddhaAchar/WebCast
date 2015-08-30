@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\programming\android development\Webcast\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="E:\programming\android development\Webcast\app\build\intermediates\pre-dexed\debug\classes-9dac373b9fafc10df06ea38d17fe32d448e805ba.jar" />
+    </item>
+    <item
+        jar="C:\Users\Aniruddha 1\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.0\7ff0e000d1e27e356567f56c92af3b8ab912636f\picasso-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="E:\programming\android development\Webcast\app\build\intermediates\pre-dexed\debug\picasso-2.5.0-7001a2bf1142fa8746d4e231ec2f57cc3568eebf.jar" />
+    </item>
+    <item
+        jar="E:\programming\android development\Webcast\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="E:\programming\android development\Webcast\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-282778b9f1143aef196ce3a9169b5283ad2ec339.jar" />
+    </item>
+    <item
+        jar="E:\programming\android development\Webcast\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="E:\programming\android development\Webcast\app\build\intermediates\pre-dexed\debug\classes-7074f6ebd224fba4a0104bfa08376a6fa1a97129.jar" />
+    </item>
+    <item
+        jar="C:\Users\Aniruddha 1\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="E:\programming\android development\Webcast\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-b661ab053679f80ab8601dfcfd05fd939af282eb.jar" />
+    </item>
+    <item
+        jar="E:\programming\android development\Webcast\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="E:\programming\android development\Webcast\app\build\intermediates\pre-dexed\debug\classes-e08b50e8c3f2fa3016a47ec19326bd7f8de2ff96.jar" />
+    </item>
+
+</items>

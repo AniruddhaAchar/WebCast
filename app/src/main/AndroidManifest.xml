@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aniruddha1.webcast" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk android:maxSdkVersion="22"
+        android:minSdkVersion="21"></uses-sdk>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppTheme"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name=".MainActivity$Populatelv"></activity> -->
+        <activity
+            android:name=".Details"
+            android:label="@string/title_activity_details"
+            android:parentActivityName=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

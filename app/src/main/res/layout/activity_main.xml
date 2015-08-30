@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:measureWithLargestChild="false"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:background="#FFFFF1"
+    >
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:focusable="true"
+        style="@style/Base.DialogWindowTitle.AppCompat"
+        android:smoothScrollbar="true"
+        android:fastScrollEnabled="true"
+        android:scrollingCache="true"
+        android:elevation="2dp"
+        android:translationZ="16dp"
+        android:propertyName="translationZ"
+        android:valueFrom="2dip"
+        android:valueTo="4dip"/>
+</LinearLayout>

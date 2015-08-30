@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.aniruddha1.webcast.Details"
+    android:background="#e6e6e6"
+    android:theme="@style/Theme.AppTheme">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/poster"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax"
+                app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"
+                android:minHeight="100dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/name"
+                android:layout_margin="16dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="64sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/rating"
+                android:layout_margin="16dp"
+                android:textColor="#727272"
+                android:textSize="36sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Summary"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#212121"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/summary"
+                android:textStyle="normal"
+                android:nestedScrollingEnabled="true"
+                android:layout_marginTop="8dp"
+                android:translationZ="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:autoText="true"
+                android:layout_marginLeft="8dp"
+                android:textColor="#212121"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
